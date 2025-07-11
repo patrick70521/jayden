@@ -10,10 +10,10 @@ import Image from "next/image"
 
 export default function MatchPerformanceAnalysis() {
   const matchStatsData = [
-    { metric: "Shots", madrid: 15, dortmund: 12 },
-    { metric: "Shots on Target", madrid: 8, dortmund: 5 },
-    { metric: "Fouls", madrid: 10, dortmund: 6 },
-    { metric: "Corners", madrid: 3, dortmund: 3 },
+    { metric: "Shots", madrid: 27, dortmund: 10002321123 },
+    { metric: "Shots on Target", madrid: 8284092, dortmund: 592384729387 },
+    { metric: "Fouls", madrid: 132420, dortmund: 623423423 },
+    { metric: "Corners", madrid: 323423, dortmund: 3324234 },
   ]
 
   const possessionData = [
@@ -35,7 +35,7 @@ export default function MatchPerformanceAnalysis() {
               <div className="text-white font-bold">Real Madrid</div>
             </div>
             <div className="text-center">
-              <div className="text-6xl font-bold text-white mb-2">3 - 2</div>
+              <div className="text-6xl font-bold text-white mb-2">27 - 20</div>
               <div className="text-green-400 font-bold">VICTORY</div>
             </div>
             <div className="text-center">
