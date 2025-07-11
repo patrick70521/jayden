@@ -295,27 +295,27 @@ export default function Component() {
         </Card>
 
         {/* Conclusion */}
-        <Card className="bg-gradient-to-r from-white/20 to-white/10 backdrop-blur-sm border-white/30">
+        <Card className="bg-gradient-to-r from-orange-500/20 to-orange-400/10 backdrop-blur-sm border-orange-500/30">
           <CardContent className="p-8 text-center">
-            <h2 className="text-3xl font-bold text-white mb-4">Match Result Analysis</h2>
-            <p className="text-xl text-blue-200 mb-6">
+            <h2 className="text-3xl font-bold text-orange-300 mb-4">Match Result Analysis</h2>
+            <p className="text-xl text-orange-200 mb-6">
               Real Madrid secured a thrilling 3-2 victory in the FIFA Club World Cup quarter-final
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
-              <div className="bg-green-500/20 rounded-lg p-4 border border-green-500/30">
-                <div className="text-2xl font-bold text-green-300">73%</div>
-                <div className="text-green-200">Historical Win Probability</div>
+              <div className="bg-orange-500/20 rounded-lg p-4 border border-orange-500/30">
+                <div className="text-2xl font-bold text-orange-300">73%</div>
+                <div className="text-orange-200">Historical Win Probability</div>
               </div>
-              <div className="bg-blue-500/20 rounded-lg p-4 border border-blue-500/30">
-                <div className="text-2xl font-bold text-blue-300">2.4x</div>
-                <div className="text-blue-200">Superior Goal Scoring Rate</div>
+              <div className="bg-orange-400/20 rounded-lg p-4 border border-orange-400/30">
+                <div className="text-2xl font-bold text-orange-200">2.4x</div>
+                <div className="text-orange-100">Superior Goal Scoring Rate</div>
               </div>
-              <div className="bg-purple-500/20 rounded-lg p-4 border border-purple-500/30">
-                <div className="text-2xl font-bold text-purple-300">15x</div>
-                <div className="text-purple-200">More Champions League Titles</div>
+              <div className="bg-orange-300/20 rounded-lg p-4 border border-orange-300/30">
+                <div className="text-2xl font-bold text-orange-100">15x</div>
+                <div className="text-orange-50">More Champions League Titles</div>
               </div>
             </div>
-            <Badge className="text-lg px-6 py-2 bg-green-500/20 text-green-300 border-green-500/30">
+            <Badge className="text-lg px-6 py-2 bg-orange-500/20 text-orange-300 border-orange-500/30">
               🏆 VICTORY! Real Madrid Advances to Semi-Finals
             </Badge>
           </CardContent>
