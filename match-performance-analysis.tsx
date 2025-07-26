@@ -145,7 +145,7 @@ export default function MatchPerformanceAnalysis() {
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-4xl font-bold text-blue-200 mb-2">53%</div>
+              <div className="text-4xl font-bold text-blue-200 mb-2">27%</div>
               <div className="text-sm text-orange-200">Shots on target</div>
               <Badge className="mt-2 bg-orange-500/20 text-orange-300 border-orange-500/30">Clinical</Badge>
             </CardContent>
@@ -156,7 +156,7 @@ export default function MatchPerformanceAnalysis() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <Card className="bg-white/10 backdrop-blur-sm border-white/20">
             <CardHeader>
-              <CardTitle className="text-white text-center">Match Statistics</CardTitle>
+              <CardTitle className="text-white text-center">Goal Scorers</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
