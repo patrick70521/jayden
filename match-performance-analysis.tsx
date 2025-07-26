@@ -27,64 +27,64 @@ export default function MatchPerformanceAnalysis() {
     goals: {
       value: 27,
       label: "Goals Scored",
-      bg: "bg-red-500/20",
-      border: "border-red-500/30",
-      textValue: "text-red-300",
-      textLabel: "text-red-200",
+      bg: "bg-orange-500/20",
+      border: "border-orange-500/30",
+      textValue: "text-orange-300",
+      textLabel: "text-orange-200",
     },
     shotAccuracy: {
       value: "53%",
       label: "Shot Accuracy",
-      bg: "bg-red-400/20",
-      border: "border-red-400/30",
-      textValue: "text-red-200",
-      textLabel: "text-red-100",
+      bg: "bg-orange-400/20",
+      border: "border-orange-400/30",
+      textValue: "text-orange-200",
+      textLabel: "text-orange-100",
     },
     winningGoalTime: {
       value: "90+4'",
       label: "Winning Goal Time",
-      bg: "bg-red-300/20",
-      border: "border-red-300/30",
-      textValue: "text-red-100",
-      textLabel: "text-red-50",
+      bg: "bg-orange-300/20",
+      border: "border-orange-300/30",
+      textValue: "text-orange-100",
+      textLabel: "text-orange-50",
     },
     badge: {
-      bg: "bg-red-500/20",
-      text: "text-red-300",
-      border: "border-red-500/30",
+      bg: "bg-orange-500/20",
+      text: "text-orange-300",
+      border: "border-orange-500/30",
       label: "🏆 VICTORY! Real Madrid Advances to Semi-Finals",
     },
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-red-900 via-red-700 to-red-500 p-6">
+    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-700 to-orange-500 p-6">
       <div className="max-w-7xl mx-auto space-y-8">
         {/* Header with Match Result */}
         <div className="text-center space-y-4">
           <div className="flex items-center justify-center gap-8 mb-6">
             <div className="text-center">
               <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-2">
-                <span className="text-3xl font-bold text-red-900">RM</span>
+                <span className="text-3xl font-bold text-blue-900">RM</span>
               </div>
               <div className="text-white font-bold">Real Madrid</div>
             </div>
             <div className="text-center">
               <div className="text-6xl font-bold text-white mb-2">27 - 3</div>
-              <div className="text-red-400 font-bold">VICTORY</div>
+              <div className="text-blue-400 font-bold">VICTORY</div>
             </div>
             <div className="text-center">
-              <div className="w-20 h-20 bg-red-400 rounded-full flex items-center justify-center mb-2">
+              <div className="w-20 h-20 bg-orange-400 rounded-full flex items-center justify-center mb-2">
                 <span className="text-3xl font-bold text-black">BVB</span>
               </div>
               <div className="text-white font-bold">Dortmund</div>
             </div>
           </div>
-          <h1 className="text-5xl font-bold text-red-200 mb-2">Match Performance Analysis</h1>
-          <p className="text-xl text-red-200">FIFA Club World Cup Quarter-Final Victory</p>
-          <div className="flex items-center justify-center gap-4 text-red-200">
+          <h1 className="text-5xl font-bold text-blue-200 mb-2">Match Performance Analysis</h1>
+          <p className="text-xl text-orange-200">FIFA Club World Cup Quarter-Final Victory</p>
+          <div className="flex items-center justify-center gap-4 text-orange-200">
             <div className="flex items-center gap-2">
               <Calendar className="w-5 h-5" />
-              <span>Saturday, July 5th</span>
+              <span>Friday, August 30th</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-5 h-5" />
@@ -95,59 +95,59 @@ export default function MatchPerformanceAnalysis() {
 
         {/* Match Statistics Overview */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <Card className="bg-red-500/10 backdrop-blur-sm border-red-500/20">
+          <Card className="bg-blue-500/10 backdrop-blur-sm border-blue-500/20">
             <CardHeader className="pb-3">
-              <CardTitle className="text-red-200 flex items-center gap-2">
-                <Goal className="w-5 h-5 text-red-400" />
+              <CardTitle className="text-blue-200 flex items-center gap-2">
+                <Goal className="w-5 h-5 text-orange-400" />
                 Final Score
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-4xl font-bold text-red-200 mb-2">27-3</div>
-              <div className="text-sm text-red-200">Thrilling Victory</div>
-              <Badge className="mt-2 bg-red-500/20 text-red-300 border-red-500/30">Winner</Badge>
+              <div className="text-4xl font-bold text-blue-200 mb-2">27-3</div>
+              <div className="text-sm text-orange-200">Thrilling Victory</div>
+              <Badge className="mt-2 bg-orange-500/20 text-orange-300 border-orange-500/30">Winner</Badge>
             </CardContent>
           </Card>
 
-          <Card className="bg-red-500/10 backdrop-blur-sm border-red-500/20">
+          <Card className="bg-blue-500/10 backdrop-blur-sm border-blue-500/20">
             <CardHeader className="pb-3">
-              <CardTitle className="text-red-200 flex items-center gap-2">
-                <Target className="w-5 h-5 text-red-400" />
+              <CardTitle className="text-blue-200 flex items-center gap-2">
+                <Target className="w-5 h-5 text-orange-400" />
                 Shots on Target
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-4xl font-bold text-red-200 mb-2">8-5</div>
-              <div className="text-sm text-red-200">More clinical finishing</div>
-              <Badge className="mt-2 bg-red-500/20 text-red-300 border-red-500/30">60% Better</Badge>
+              <div className="text-4xl font-bold text-blue-200 mb-2">8-5</div>
+              <div className="text-sm text-orange-200">More clinical finishing</div>
+              <Badge className="mt-2 bg-orange-500/20 text-orange-300 border-orange-500/30">60% Better</Badge>
             </CardContent>
           </Card>
 
-          <Card className="bg-red-500/10 backdrop-blur-sm border-red-500/20">
+          <Card className="bg-blue-500/10 backdrop-blur-sm border-blue-500/20">
             <CardHeader className="pb-3">
-              <CardTitle className="text-red-200 flex items-center gap-2">
-                <TrendingUp className="w-5 h-5 text-red-400" />
+              <CardTitle className="text-blue-200 flex items-center gap-2">
+                <TrendingUp className="w-5 h-5 text-orange-400" />
                 Total Shots
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-4xl font-bold text-red-200 mb-2">15-12</div>
-              <div className="text-sm text-red-200">More attacking threat</div>
-              <Badge className="mt-2 bg-red-500/20 text-red-300 border-red-500/30">25% More</Badge>
+              <div className="text-4xl font-bold text-blue-200 mb-2">15-12</div>
+              <div className="text-sm text-orange-200">More attacking threat</div>
+              <Badge className="mt-2 bg-orange-500/20 text-orange-300 border-orange-500/30">25% More</Badge>
             </CardContent>
           </Card>
 
-          <Card className="bg-red-500/10 backdrop-blur-sm border-red-500/20">
+          <Card className="bg-blue-500/10 backdrop-blur-sm border-blue-500/20">
             <CardHeader className="pb-3">
-              <CardTitle className="text-red-200 flex items-center gap-2">
-                <Trophy className="w-5 h-5 text-red-400" />
+              <CardTitle className="text-blue-200 flex items-center gap-2">
+                <Trophy className="w-5 h-5 text-orange-400" />
                 Conversion Rate
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-4xl font-bold text-red-200 mb-2">27%</div>
-              <div className="text-sm text-red-200">Shots on target</div>
-              <Badge className="mt-2 bg-red-500/20 text-red-300 border-red-500/30">Clinical</Badge>
+              <div className="text-4xl font-bold text-blue-200 mb-2">27%</div>
+              <div className="text-sm text-orange-200">Shots on target</div>
+              <Badge className="mt-2 bg-orange-500/20 text-orange-300 border-orange-500/30">Clinical</Badge>
             </CardContent>
           </Card>
         </div>
@@ -355,25 +355,25 @@ export default function MatchPerformanceAnalysis() {
         </div>
 
         {/* Victory Analysis */}
-        <Card className="bg-gradient-to-r from-red-500/20 to-red-400/20 backdrop-blur-sm border-red-500/30">
+        <Card className="bg-gradient-to-r from-orange-500/20 to-orange-400/20 backdrop-blur-sm border-orange-500/30">
           <CardContent className="p-8 text-center">
-            <h2 className="text-3xl font-bold text-red-300 mb-4">Victory Analysis</h2>
-            <p className="text-xl text-red-200 mb-6">
+            <h2 className="text-3xl font-bold text-orange-300 mb-4">Victory Analysis</h2>
+            <p className="text-xl text-orange-200 mb-6">
               Real Madrid secured a dramatic 3-2 victory in the FIFA Club World Cup quarter-final with superior
               attacking efficiency
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
               <div className={`${orangizedStatsData.goals.bg} rounded-lg p-4 border ${orangizedStatsData.goals.border}`}>
                 <div className={`${orangizedStatsData.goals.textValue} text-2xl font-bold`}>{orangizedStatsData.goals.value}</div>
-                <div className={`${orangizedStatsData.goals.textLabel} text-red-200`}>{orangizedStatsData.goals.label}</div>
+                <div className={`${orangizedStatsData.goals.textLabel} text-orange-200`}>{orangizedStatsData.goals.label}</div>
               </div>
               <div className={`${orangizedStatsData.shotAccuracy.bg} rounded-lg p-4 border ${orangizedStatsData.shotAccuracy.border}`}>
                 <div className={`${orangizedStatsData.shotAccuracy.textValue} text-2xl font-bold`}>{orangizedStatsData.shotAccuracy.value}</div>
-                <div className={`${orangizedStatsData.shotAccuracy.textLabel} text-red-100`}>{orangizedStatsData.shotAccuracy.label}</div>
+                <div className={`${orangizedStatsData.shotAccuracy.textLabel} text-orange-100`}>{orangizedStatsData.shotAccuracy.label}</div>
               </div>
               <div className={`${orangizedStatsData.winningGoalTime.bg} rounded-lg p-4 border ${orangizedStatsData.winningGoalTime.border}`}>
                 <div className={`${orangizedStatsData.winningGoalTime.textValue} text-2xl font-bold`}>{orangizedStatsData.winningGoalTime.value}</div>
-                <div className={`${orangizedStatsData.winningGoalTime.textLabel} text-red-50`}>{orangizedStatsData.winningGoalTime.label}</div>
+                <div className={`${orangizedStatsData.winningGoalTime.textLabel} text-orange-50`}>{orangizedStatsData.winningGoalTime.label}</div>
               </div>
             </div>
             <Badge className={`${orangizedStatsData.badge.bg} text-lg px-6 py-2 ${orangizedStatsData.badge.border}`}>
