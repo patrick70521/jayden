@@ -57,31 +57,31 @@ export default function MatchPerformanceAnalysis() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-purple-900 via-blue-900 to-indigo-900 p-6">
+    <div className="min-h-screen bg-gradient-to-br from-blue-900 via-blue-700 to-orange-500 p-6">
       <div className="max-w-7xl mx-auto space-y-8">
         {/* Header with Match Result */}
         <div className="text-center space-y-4">
           <div className="flex items-center justify-center gap-8 mb-6">
             <div className="text-center">
               <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center mb-2">
-                <span className="text-3xl font-bold text-purple-900">RM</span>
+                <span className="text-3xl font-bold text-blue-900">RM</span>
               </div>
               <div className="text-white font-bold">Real Madrid</div>
             </div>
             <div className="text-center">
-              <div className="text-6xl font-bold text-white mb-2">27 - 20</div>
-              <div className="text-green-400 font-bold">VICTORY</div>
+              <div className="text-6xl font-bold text-white mb-2">27 - 3</div>
+              <div className="text-blue-400 font-bold">VICTORY</div>
             </div>
             <div className="text-center">
-              <div className="w-20 h-20 bg-yellow-400 rounded-full flex items-center justify-center mb-2">
+              <div className="w-20 h-20 bg-orange-400 rounded-full flex items-center justify-center mb-2">
                 <span className="text-3xl font-bold text-black">BVB</span>
               </div>
               <div className="text-white font-bold">Dortmund</div>
             </div>
           </div>
-          <h1 className="text-5xl font-bold text-white mb-2">Match Performance Analysis</h1>
-          <p className="text-xl text-blue-200">FIFA Club World Cup Quarter-Final Victory</p>
-          <div className="flex items-center justify-center gap-4 text-blue-200">
+          <h1 className="text-5xl font-bold text-blue-200 mb-2">Match Performance Analysis</h1>
+          <p className="text-xl text-orange-200">FIFA Club World Cup Quarter-Final Victory</p>
+          <div className="flex items-center justify-center gap-4 text-orange-200">
             <div className="flex items-center gap-2">
               <Calendar className="w-5 h-5" />
               <span>Saturday, July 5th</span>
@@ -95,59 +95,59 @@ export default function MatchPerformanceAnalysis() {
 
         {/* Match Statistics Overview */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          <Card className="bg-white/10 backdrop-blur-sm border-white/20">
+          <Card className="bg-blue-500/10 backdrop-blur-sm border-blue-500/20">
             <CardHeader className="pb-3">
-              <CardTitle className="text-white flex items-center gap-2">
-                <Goal className="w-5 h-5 text-green-400" />
+              <CardTitle className="text-blue-200 flex items-center gap-2">
+                <Goal className="w-5 h-5 text-orange-400" />
                 Final Score
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-4xl font-bold text-white mb-2">3-2</div>
-              <div className="text-sm text-blue-200">Thrilling Victory</div>
-              <Badge className="mt-2 bg-green-500/20 text-green-300 border-green-500/30">Winner</Badge>
+              <div className="text-4xl font-bold text-blue-200 mb-2">27-3</div>
+              <div className="text-sm text-orange-200">Thrilling Victory</div>
+              <Badge className="mt-2 bg-orange-500/20 text-orange-300 border-orange-500/30">Winner</Badge>
             </CardContent>
           </Card>
 
-          <Card className="bg-white/10 backdrop-blur-sm border-white/20">
+          <Card className="bg-blue-500/10 backdrop-blur-sm border-blue-500/20">
             <CardHeader className="pb-3">
-              <CardTitle className="text-white flex items-center gap-2">
-                <Target className="w-5 h-5 text-red-400" />
+              <CardTitle className="text-blue-200 flex items-center gap-2">
+                <Target className="w-5 h-5 text-orange-400" />
                 Shots on Target
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-4xl font-bold text-white mb-2">8-5</div>
-              <div className="text-sm text-blue-200">More clinical finishing</div>
-              <Badge className="mt-2 bg-green-500/20 text-green-300 border-green-500/30">60% Better</Badge>
+              <div className="text-4xl font-bold text-blue-200 mb-2">8-5</div>
+              <div className="text-sm text-orange-200">More clinical finishing</div>
+              <Badge className="mt-2 bg-orange-500/20 text-orange-300 border-orange-500/30">60% Better</Badge>
             </CardContent>
           </Card>
 
-          <Card className="bg-white/10 backdrop-blur-sm border-white/20">
+          <Card className="bg-blue-500/10 backdrop-blur-sm border-blue-500/20">
             <CardHeader className="pb-3">
-              <CardTitle className="text-white flex items-center gap-2">
-                <TrendingUp className="w-5 h-5 text-blue-400" />
+              <CardTitle className="text-blue-200 flex items-center gap-2">
+                <TrendingUp className="w-5 h-5 text-orange-400" />
                 Total Shots
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-4xl font-bold text-white mb-2">15-12</div>
-              <div className="text-sm text-blue-200">More attacking threat</div>
-              <Badge className="mt-2 bg-green-500/20 text-green-300 border-green-500/30">25% More</Badge>
+              <div className="text-4xl font-bold text-blue-200 mb-2">15-12</div>
+              <div className="text-sm text-orange-200">More attacking threat</div>
+              <Badge className="mt-2 bg-orange-500/20 text-orange-300 border-orange-500/30">25% More</Badge>
             </CardContent>
           </Card>
 
-          <Card className="bg-white/10 backdrop-blur-sm border-white/20">
+          <Card className="bg-blue-500/10 backdrop-blur-sm border-blue-500/20">
             <CardHeader className="pb-3">
-              <CardTitle className="text-white flex items-center gap-2">
-                <Trophy className="w-5 h-5 text-yellow-400" />
+              <CardTitle className="text-blue-200 flex items-center gap-2">
+                <Trophy className="w-5 h-5 text-orange-400" />
                 Conversion Rate
               </CardTitle>
             </CardHeader>
             <CardContent>
-              <div className="text-4xl font-bold text-white mb-2">53%</div>
-              <div className="text-sm text-blue-200">Shots on target</div>
-              <Badge className="mt-2 bg-green-500/20 text-green-300 border-green-500/30">Clinical</Badge>
+              <div className="text-4xl font-bold text-blue-200 mb-2">53%</div>
+              <div className="text-sm text-orange-200">Shots on target</div>
+              <Badge className="mt-2 bg-orange-500/20 text-orange-300 border-orange-500/30">Clinical</Badge>
             </CardContent>
           </Card>
         </div>
